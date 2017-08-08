@@ -1,0 +1,7 @@
+[package]
+name = "eachline"
+version = "0.1.0"
+authors = ["Matt Coffin <matt.coffin@charter.com>"]
+license = "MIT"
+
+[dependencies]
