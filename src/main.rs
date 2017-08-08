@@ -47,6 +47,7 @@ fn main() {
              .takes_value(false))
         .arg(clap::Arg::with_name("command")
              .multiple(true)
+             .required(true)
              .last(true))
         .get_matches();
 
